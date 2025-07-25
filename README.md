@@ -1,7 +1,28 @@
-<<<<<<< HEAD
-# JsSiteTemplate
+
+
+ How to Use
+
+1. Open `index.html` in a browser
+2. Click **Randomize** to generate bars
+3. Choose **Array Size** and **Speed**
+4. Select a sorting algorithm
+5. Click **Sort** to see the algorithm animate
+
+
+
+ Author
+
+**Nitin Revankar**  
+📧 nitinrevankar.5656@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/nitin-revankar-a59a65354/)  
+💻 [Portfolio](https://nitin-portfolio-web.netlify.app)  
+🐙 [GitHub](https://github.com/Nitinrev787)
+
+ License
  
-=======
-# sortingvisualizer
-This is a browser-based Sorting Algorithm Visualizer built using HTML, CSS, and vanilla JavaScript. The app allows users to generate arrays of adjustable sizes and speeds, then visualize how sorting algorithms like Bubble Sort, Insertion Sort, and Merge Sort work through animated bar movements.  It’s designed to be an educational tool
->>>>>>> ecdf41f79701f2b57fc42a4f69b0932c3fb901ca
+Licensed under the [MIT License](LICENSE).  
+Feel free to use or build upon this for personal or educational projects.
+
+
+
+ This visualizer was built as a learning tool to strengthen understanding of sorting algorithms and DOM manipulation using vanilla JavaScript.
