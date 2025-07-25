@@ -1,0 +1,84 @@
+:root{
+    --primary-color: #053c69;
+    --secondary-color: #ff993b;
+    --dark-color: #292929;
+    --white-color: #dff3e4;
+}
+body{
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+nav{
+    background-color: var(--dark-color);
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: var(--primary-color);
+}
+footer .social>a{
+    color: var(--white-color);
+    opacity: 0.75;
+}
+footer .social>a:hover{
+    opacity: 0.9;
+    color: var(--primary-color);
+}
+.bsicon{
+    color: purple;
+}
+.jsicon{
+    color: yellow;
+}
+.html5icon{
+    color: orangered;
+}
+.css3icon{
+    color: blue;
+}
+.checklist >li i{
+    color: var(--primary-color);
+}
+code[class*="language-"],
+    pre[class*="language-"] {
+        white-space: pre-wrap;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+main>.container {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
+
+.sticky-footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.bars{
+    display: flex;
+    flex-direction: row;
+}
+
+.bar{
+    width: 20px;
+    background-color: rgb(4, 40, 82);
+    margin: 2px;
+    transition: height ease-in-out 0.5s;
+}
+
+.buttons > button, select{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(4, 40, 82);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+    display: inline;
+}
